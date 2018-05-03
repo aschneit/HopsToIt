@@ -1,0 +1,204 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: #c74949;
+}
+
+.beer {
+
+}
+
+.title-image {
+	display: flex;
+	margin-top: 50px;
+	align-items: center;
+
+}
+
+.title {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 100px;
+	color: #21202f;
+	margin-left: 200px;
+	width: 540px;
+	height: 100px;
+	line-height: 100px;
+}
+
+.form {
+	margin-top: 50px;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	height: 330px;
+
+	flex-wrap: wrap;
+
+}
+
+.form div {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 15px;
+	width: 350px;
+}
+
+.search-button {
+	width: 50px;
+}
+
+form input {
+	width: 100px;
+	padding: 5px;
+	border: 1px solid #9c9c9c;
+	border-color: #9c9c9c #9c9c9c #ccc #ccc;
+	font-family: Helvetica;
+	font-size: 14px;
+
+}
+
+label {
+	padding-bottom: 5px;
+	font-family: 'Black Han Sans', sans-serif;
+	color: #21202f;
+}
+
+
+.search-button {
+	margin-top: 20px;
+	border-radius: 5px;
+	width: 112px;
+	font-family: 'Black Han Sans', sans-serif;
+	line-height: 16px;
+	height: 26px;
+	font-size: 16px;
+	color: #21202f;
+}
+
+.search-button:active {
+	background-color: #f7ba42;
+}
+
+.display {
+	display: flex;
+	justify-content: space-between;
+	min-height: 700px;
+}
+
+.beer-list {
+	margin-top: 30px;
+	margin-left: 100px;
+	font-family: 'Black Han Sans', sans-serif;
+	color: #21202f;
+	font-size: 16px;
+	line-height: 25px;
+	min-width: 400px;
+}
+
+.beer-list li {
+	cursor: pointer;
+	width: fit-content;
+	display: block;
+}
+
+.beer-list li:hover {
+	color: #f7ba42;
+}
+
+.info {
+	margin-top: 30px;
+	font-family: 'Black Han Sans', sans-serif;
+	color: #21202f;
+	font-size: 16px;
+	line-height: 20px;
+	display: inline-block;
+	list-style: none;
+	width: 400px;
+	min-width: 400px;
+	height: 100%;
+	margin-right: 100px;
+	padding: 10px;
+	font-size: 13px;
+
+}
+
+.selected {
+	border: 6px solid #f7ba42;
+}
+
+
+.info li {
+	margin-bottom: 16px;
+}
+
+
+.info img {
+	height: 20%;
+	width: 20%;
+	float: left;
+	padding-right: 16px;
+	padding-bottom: 16px;
+
+}
+
+.return {
+	margin-left: 100px;
+	font-family: 'Black Han Sans', sans-serif;
+	color: #21202f;
+	font-size: 16px;
+	line-height: 25px;
+	cursor: pointer;
+	width: fit-content;
+	list-style: none;
+}
+
+.return a {
+	text-decoration: none;
+	color: #21202f;
+}
+
+.return a:hover {
+	color: #f7ba42;
+}
